@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.container {
+  background-image: url(images/bckimg.jpg.png);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  background-color: #f5f5dc;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 12px grey;
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+}
+input {
+  grid-column: span 4;
+  height: 50px;
+  width: 240px;
+  background-color: white;
+  box-shadow: inset 5px 5px 12px white, 5px 5px 12px grey;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  border-radius: 30px;
+  text-align: end;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+button {
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  box-shadow: -5px -5px 12px white, 5px 5px 12px gray;
+  margin: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.equalbutton {
+  width: 100px;
+  background-color: #6f432a;
+  color: white;
+}
+.equalbutton:hover {
+  filter: drop-shadow(2px 2px 3px grey);
+}
+.clrbtn {
+  background-color: #6f432a;
+  color: white;
+}
